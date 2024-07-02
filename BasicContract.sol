@@ -6,9 +6,9 @@ contract SimpleVoting {
     mapping(string => uint256) public votes;
     string[] public candidates;
 
-    constructor(string[] memory initialCandidates) {
+    constructor() {
         owner = msg.sender;
-        candidates = initialCandidates;
+        candidates = ["Alice", "Bob", "Charlie"]; // Initialize the candidates here
     }
 
     modifier onlyOwner() {
