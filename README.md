@@ -1,4 +1,4 @@
-# Meta_FunctionsandErrors
+
 # Simple Voting Contract
 
 This Solidity program is a simple voting system that demonstrates the basic syntax and functionality of the Solidity programming language. The purpose of this program is to serve as a starting point for those who are new to Solidity and want to get a feel for how it works.
@@ -71,12 +71,11 @@ To compile the code, click on the "Solidity Compiler" tab in the left-hand sideb
 Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "SimpleVoting" contract from the dropdown menu.
 
 # Deploying the Contract
-When deploying the contract, you need to provide the list of initial candidates. Enter the list of candidates as a comma-separated array in the deploy parameters field. For example, to initialize the contract with three candidates ("Alice", "Bob", and "Charlie"), enter the following in the deploy parameters field:
+When deploying the contract, you need to provide the list of initial candidates. Enter the list of candidates as a comma-separated array in the deploy parameters field. For example, to initialize the contract with three candidates ("Alice," "Bob," and "Charlie"), enter the following in the deploy parameters field, then click on the "Deploy" button to deploy the contract.
 ```
 ["Alice", "Bob", "Charlie"]
 ```
-Then, click on the "Deploy" button to deploy the contract.
---
+
 ## Authors
 
 Vashti Bauson
